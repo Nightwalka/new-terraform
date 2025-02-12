@@ -1,0 +1,68 @@
+# Ignore common large files
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# Ignore compiled files
+*.exe
+*.dll
+*.o
+*.so
+*.a
+*.out
+*.class
+*.pyc
+*.pyo
+
+# Ignore large datasets
+*.csv
+*.tsv
+*.json
+*.xml
+*.sqlite
+*.db
+
+# Ignore media files (optional, remove if needed)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.mp3
+*.wav
+*.flac
+
+# Ignore large images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.tiff
+*.psd
+
+# Ignore archives
+*.iso
+*.tar.gz
+*.tgz
+*.bz2
+
+# Ignore Terraform files
+.terraform/
+*.tfstate
+*.tfstate.backup
+terraform.tfstate.d/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
