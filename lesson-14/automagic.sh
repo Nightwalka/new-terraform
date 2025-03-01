@@ -32,12 +32,12 @@ echo
 printf "\n\033[7;31mWAITING 10 SECONDS FOR SYSTEMS TO INITIALIZE - PING CHECK......\033[0m\n\n"
 sleep 10
 
-ansible all --private-key keys/ssh_key -i ansible/inventory -u hulk -m ping
+ansible all --private-key  ~/new_ssh_key -i ansible/inventory -u hulk -m ping
 
 printf "\n\033[7;31mWAITING 10 SECONDS BEFORE RUNNING THE PLAYBOOK......\033[0m\n\n"
 sleep 10
 
-ansible-playbook ansible/playbook.yml --private-key keys/ssh_key -i ansible/inventory -u hulk
+ansible-playbook ansible/playbook.yml --private-key  ~/new_ssh_key -i ansible/inventory -u hulk
 
 printf "\n\033[7;32mPROCESS COMPLETE! \033[0m"
 echo

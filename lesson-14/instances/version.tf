@@ -2,9 +2,9 @@
 terraform {
   backend "s3" {
     # Enter the bucket name you chose previously as well as a bucket key.
-    bucket = ""
-    key = ""
-    region = "us-east-2"
+    bucket = "ron-final-terra-hashi"
+    key = "dir1/terraform.tfstate"
+    region = "us-east-1"
   }
   
   required_providers {
